@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:#F5F3F5;
+}
+
+ul {
+    margin:0px;
+    padding: 10px;
+    background-color:transparent;
+    width:100em;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+li {
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+    
+  }
+  
+nav {
+    position: fixed;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.middle-left-titel {
+        position: absolute;
+        top: 30em;
+        left: 20em;
+        color: white;
+}
