@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    position: fixed;
+    margin:0px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    padding-right: 60px;
+    float: right;
+    color: white;
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: transparent;
+    margin-left: 1px;
+    white-space: nowrap;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #111;
+    opacity: 20%;
+    
+  }
+  
+nav {
+    position: absolute;
+}

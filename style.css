@@ -1,48 +1,213 @@
+/*Homepage*/
+
 body {
-    padding: 0px;
+
+    width: 100%;
+    height: 100%;
     margin: 0px;
-    background-color:#F5F3F5;
-}
+    padding: 0px; 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    background-image: linear-gradient(95deg, #ffe53b, #ff2525);
+  }
+
 
 ul {
+    position: fixed;
     margin:0px;
-    padding: 10px;
-    background-color:transparent;
-    width:100em;
-    overflow: hidden;
-    background-color: white;
-
+  
 }
 
 li {
-    padding: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-right: 60px;
+    float: right;
     color: white;
     list-style: none;
-    display: inline-block;
 }
 
-li a {
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding: 5px 15px 5px 15px;
+    background: transparent;
+    margin-left: 1px;
+    white-space: nowrap;
     padding: 14px 16px;
     text-align: center;
 }
 
 li a:hover {
-    background-color: #111;
+    border-bottom: 2px solid black;
+    opacity: 20%;
     
   }
   
 nav {
-    position: fixed;
+    position: absolute;
 }
 
-img {
-    height: auto;
+.container img {
     width: 100%;
+    height: 850px;
+    
 }
 
-.middle-left-titel {
-        position: absolute;
-        top: 30em;
-        left: 20em;
-        color: white;
+
+.whitespace {
+    padding-right: 370px;
+    display: inline-block;
+}
+
+h1 {
+    margin-top: 12rem;
+    margin-left: 10rem;
+    display: inline-block;
+    
+}
+
+p {
+    padding-left: 20px;
+     margin-left: 8rem;
+    color: white;
+    background-color: transparent;
+    display:flex;
+    justify-content: start;
+}
+
+
+  
+  /* Centered text */
+  .centered {
+    padding-top: 13em;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .centered-bottom {
+    height: 8px;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .verwijzing {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #ffffff;
+    padding: 5px;
+    opacity: 80%;s
+  }
+
+  .verwijzing a:hover {
+    color: white;
+    opacity: 40%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+
+
+
+.footer{ 
+            font-size: 25px;
+            margin: 20px ;
+            top: 77%;
+            position: absolute;
+            color: white;
+            text-align: center; 
+            display: block;
+            width: 100%;
+        }
+
+
+.img { display: inline-block;  
+
+}
+
+.img-size {
+  height: 100px;
+}
+.foot-text{
+    display: block;
+}
+
+/* Contactpage*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.font-size-c {
+  font-size: 25px;
+}
+  
+.font-size-p {
+  font-size: 23px;
+}
+
+.googlemaps {
+  display:flex;
+  justify-content:end;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
 }
